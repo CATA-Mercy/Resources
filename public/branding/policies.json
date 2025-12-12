@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "heading": "Policies for studios, labs, and shared spaces.",
+    "body": [
+      "This page collects the current policies that govern access to MPRA studios, computer labs, and related spaces.",
+      "Use the filters to find the policy you need, then open it in a clean, print-friendly view or download a copy for reference."
+    ]
+  },
+
+  "tabs": {
+    "spacesResources": "Spaces & resources",
+    "studentsIndividuals": "Students & individuals"
+  },
+
+  "search": {
+    "label": "Search policies",
+    "placeholder": "Search by keyword, room, or topic…"
+  },
+
+  "layout": {
+    "accordionLabel": "Accordion view",
+    "singlePolicyLabel": "Single policy view"
+  },
+
+  "list": {
+    "heading": "Available policy sets",
+    "empty": "No policies are available yet for this category."
+  },
+
+  "details": {
+    "headingLabel": "Policy",
+    "introMessage": "Select a policy from the list to view its details.",
+    "lastUpdatedLabel": "Last updated",
+    "downloadLabel": "Download PDF",
+    "printLabel": "Open print-friendly view",
+    "noSections": "This policy does not have any sections configured yet."
+  },
+
+  "sections": {
+    "spacesResourcesIntroTitle": "Spaces & resources policies",
+    "spacesResourcesIntroBody": "Room access, booking rules, equipment usage, and shared-space expectations.",
+    "studentsIndividualsIntroTitle": "Student & individual policies",
+    "studentsIndividualsIntroBody": "Expectations for student conduct, guests, and individual use of MPRA facilities."
+  },
+
+  "emptyStates": {
+    "noMatch": "No policies matched your search. Try a different keyword or clear the filters."
+  }
+}

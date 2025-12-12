@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Shared header gets injected by shell.js -->
+  <div id="siteHeader"></div>
+
+  <main id="pageRoot" class="page page-resources">
+    <div class="page-inner">
+
+      <section class="section">
+        <div class="resources-shell">
+          <!-- LEFT: Program browser + search -->
+          <aside class="card resources-sidebar" aria-label="Browse resources by program">
+            <div class="resources-sidebar-header">
+              <div class="resources-sidebar-kicker" id="resourcesFilterKicker">Browse</div>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="resourcesSearch" id="resourcesSearchLabel"></label>
+              <input
+                id="resourcesSearch"
+                class="input"
+                type="search"
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" id="resourcesProgramLabel"></label>
+              <ul id="resourcesProgramList" class="resources-program-list">
+                <!-- Program list items injected by JS -->
+              </ul>
+            </div>
+
+            <p class="resources-filter-note" id="resourcesFilterNote"></p>
+          </aside>
+
+          <!-- RIGHT: Current program header + resources list -->
+          <section class="card resources-main" aria-labelledby="resourcesPageTitle">
+            <header class="resources-header">
+              <h1 class="resources-title" id="resourcesPageTitle"></h1>
+              <p class="resources-sub" id="resourcesPageSub"></p>
+            </header>
+
+            <div class="resources-program-current">
+              <h2 id="resourcesProgramCurrentTitle" class="resources-program-current-title"></h2>
+              <p id="resourcesProgramCurrentDescription" class="resources-program-current-description"></p>
+            </div>
+
+            <div id="resourcesList" class="resources-list"></div>
+            <p id="resourcesEmpty" class="resources-empty" hidden></p>
+          </section>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Shared footer gets injected by shell.js -->
+  <div id="siteFooter"></div>
+
+  <script src="scripts/shell.js"></script>
+  <script src="scripts/resources-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Policies</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  <main id="pageRoot" class="page page-policies">
+    <div class="page-inner">
+
+      <section class="section">
+        <div class="policies-shell">
+          <!-- LEFT: Sidebar with search, tabs, and policy list -->
+          <aside class="card policies-sidebar" aria-label="Browse policies">
+            <div class="policies-sidebar-header">
+              <div class="policies-sidebar-kicker" id="policiesSidebarKicker">Browse</div>
+            </div>
+
+
+            <div class="field-group">
+              <div id="policiesTabs" class="policies-tabs">
+                <!-- Category tabs injected by JS -->
+              </div>
+            </div>
+
+            <section class="policies-list-panel" aria-label="Available policies">
+              <header class="policies-list-header">
+                <h3 class="policies-list-title" id="policiesListHeading"></h3>
+              </header>
+              <ul id="policiesList" class="policies-list"></ul>
+              <p id="policiesListEmpty" class="policies-list-empty" hidden></p>
+            </section>
+          </aside>
+
+          <!-- RIGHT: Policy detail only -->
+          <section class="card policies-main" aria-labelledby="policiesPageTitle">
+            <header class="policies-header">
+              <h1 class="policies-title" id="policiesPageTitle"></h1>
+              <p class="policies-sub" id="policiesPageSub"></p>
+            </header>
+
+            <div class="policies-category-intro">
+              <h2 id="policiesCategoryIntroTitle" class="policies-category-intro-title"></h2>
+              <p id="policiesCategoryIntroBody" class="policies-category-intro-body"></p>
+            </div>
+
+            <section class="policies-detail-panel" aria-label="Policy details">
+              <header class="policies-detail-header">
+                <p class="policies-detail-label" id="policiesDetailLabel"></p>
+                <h3 class="policies-detail-title" id="policiesDetailTitle"></h3>
+                <p class="policies-detail-updated" id="policiesDetailUpdated"></p>
+                <div class="policies-detail-actions" id="policiesDetailActions"></div>
+              </header>
+
+              <p class="policies-detail-intro" id="policiesDetailIntro"></p>
+              <div id="policiesDetailSections" class="policies-detail-sections"></div>
+            </section>
+
+            <p id="policiesEmptyGlobal" class="policies-empty-global" hidden></p>
+          </section>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script src="scripts/shell.js"></script>
+  <script src="scripts/policies.js"></script>
+</body>
+</html>

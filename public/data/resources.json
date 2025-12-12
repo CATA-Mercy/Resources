@@ -1,0 +1,67 @@
+{
+  "resources": [
+    {
+      "id": "mpra-stage-plot-template-a",
+      "program": "mpra",
+      "category": "roomPlots",
+      "name": "Stage Plot Template – Studio A",
+      "description": "Blank stage plot template for Studio A sessions.",
+      "linkType": "download",
+      "url": "https://example.edu/path/to/stage-plot-studio-a.pdf"
+    },
+    {
+      "id": "mpra-patchbay-overview",
+      "program": "mpra",
+      "category": "patchBays",
+      "name": "Patchbay Overview – Victory Studios",
+      "description": "Diagram showing primary patch points for studios and labs.",
+      "linkType": "link",
+      "url": "https://example.edu/path/to/patchbay-overview"
+    },
+    {
+      "id": "mpra-gear-list",
+      "program": "mpra",
+      "category": "gearLists",
+      "name": "MPRA Gear List – Studios & Labs",
+      "description": "High-level inventory for reference when planning sessions.",
+      "linkType": "download",
+      "url": "https://example.edu/path/to/mpra-gear-list.pdf"
+    },
+    {
+      "id": "media-camera-kit-guide",
+      "program": "media",
+      "category": "otherDocs",
+      "name": "Camera Kit Quick Reference",
+      "description": "Overview of what’s included in standard camera kits.",
+      "linkType": "link",
+      "url": "https://example.edu/path/to/camera-kit-guide"
+    },
+    {
+      "id": "comm-room-usage-guide",
+      "program": "comm",
+      "category": "roomPlots",
+      "name": "Communication Arts Room Usage Guide",
+      "description": "General layout and furniture diagrams for Comm Arts rooms.",
+      "linkType": "link",
+      "url": "https://example.edu/path/to/comm-room-usage"
+    },
+    {
+      "id": "da-lab-software-list",
+      "program": "da",
+      "category": "otherDocs",
+      "name": "Digital Arts Lab Software List",
+      "description": "Current software titles available in Digital Arts labs.",
+      "linkType": "download",
+      "url": "https://example.edu/path/to/da-software-list.pdf"
+    },
+    {
+      "id": "shared-room-checklist",
+      "program": "general",
+      "category": "otherDocs",
+      "name": "Room Reset Checklist",
+      "description": "Shared checklist for resetting any lab, classroom, or studio at the end of a session.",
+      "linkType": "download",
+      "url": "https://example.edu/path/to/room-reset-checklist.pdf"
+    }
+  ]
+}

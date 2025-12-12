@@ -1,0 +1,36 @@
+{
+  "siteTitle": "CATA Resource Hub",
+
+  "header": {
+    "logoMode": "monogram",
+    "logoText": "MU",
+    "logoImageUrl": "",
+    "logoImageAlt": "Mercy University logo",
+    "siteName": "CATA Resource Hub"
+  },
+
+  "nav": {
+    "home": "Home",
+    "policies": "Policies",
+    "howto": "How-To / Help",
+    "resources": "Resources"
+  },
+
+  "footer": {
+    "copyrightPrefix": "©",
+    "owner": "Communication & the Arts Department"
+  },
+
+  "programs": {
+    "mpra": "Music Production & Recording Arts",
+    "media": "Media Studies",
+    "comm": "Communication & the Arts",
+    "da": "Digital Arts",
+    "general": "General"
+  },
+
+  "theme": {
+    "default": "light",
+    "allowToggle": false
+  }
+}

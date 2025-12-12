@@ -1,0 +1,33 @@
+<!-- Shared site header. Branding text will be injected via branding/global.json -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <!-- Logo slot supports either a monogram badge or an image logo -->
+      <div class="logo-slot">
+        <div class="logo-mark" id="headerLogoMark"></div>
+        <img class="logo-image" id="headerLogoImage" alt="" />
+      </div>
+      <div class="brand-text">
+        <div class="brand-name" id="headerSiteName"></div>
+      </div>
+    </div>
+
+    <!-- Mobile nav toggle (hamburger) -->
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="nav" aria-label="Site navigation">
+      <a href="index.html" data-nav="home" id="navHomeLink"></a>
+      <a href="policies.html" data-nav="policies" id="navPoliciesLink"></a>
+      <a href="how-to.html" data-nav="howto" id="navHowtoLink"></a>
+      <a href="resources.html" data-nav="resources" id="navResourcesLink"></a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+      <span class="theme-toggle-thumb"></span>
+      <span class="theme-toggle-label">Theme</span>
+    </button>
+  </div>
+</header>

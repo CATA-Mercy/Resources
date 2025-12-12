@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "heading": "Welcome to the CATA Resource Hub.",
+    "body": [
+      "This hub centralizes information for our studios, labs, and classrooms.",
+      "You’ll find policies, how-to guides, and shared resources to support your work in the Music Production & Recording Arts and related programs."
+    ]
+  },
+  "contact": {
+    "title": "Need help?",
+    "body": "If you’re stuck, have a question about the studios, or something isn’t working the way you expect, please reach out.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "email": "mpra@mercy.edu",
+    "phone": "(914) 555-1234"
+  },
+  "sections": {
+    "highlightsTitle": "Highlights",
+    "highlightsEmpty": "No highlights posted yet.",
+    "upcomingTitle": "Upcoming",
+    "upcomingEmpty": "No upcoming events are listed right now."
+  },
+  "cards": {
+    "policies": {
+      "title": "Policies",
+      "body": "Access rules, booking expectations, and space-specific guidance."
+    },
+    "howto": {
+      "title": "How-To / Help",
+      "body": "Accounts, troubleshooting, and walkthroughs for MPRA and related facilities."
+    },
+    "resources": {
+      "title": "Resources",
+      "body": "Program-grouped downloads and links for studios, labs, and media courses."
+    }
+  }
+}

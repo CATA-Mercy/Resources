@@ -1,0 +1,209 @@
+{
+  "items": [
+    {
+      "id": "adobe-student-access",
+      "title": "Accessing Adobe Creative Cloud (Students)",
+      "program": "mpra",
+      "category": "accounts",
+      "summary": "Step-by-step instructions for signing into Adobe with your Mercy credentials and installing apps in the labs.",
+      "format": "htmlEmbed",
+      "url": "help/adobe-student-access.html"
+    },
+    {
+      "id": "adobe-license-troubleshooting",
+      "title": "Adobe License Not Showing? (Account Check)",
+      "program": "general",
+      "category": "troubleshooting",
+      "summary": "What to check if Creative Cloud says you’re on a trial or doesn’t recognize your Mercy account.",
+      "format": "htmlEmbed",
+      "url": "https://example.edu/help/adobe-license-troubleshooting"
+    },
+    {
+      "id": "lab-login-mac",
+      "title": "Logging Into Mac Lab Computers",
+      "program": "general",
+      "category": "accounts",
+      "summary": "How to sign into Victory Hall lab Macs, including what to do if your password isn’t working.",
+      "format": "textOnly",
+      "body": [
+        "Use these steps to sign into a lab Mac with your Mercy account."
+      ],
+      "steps": [
+        "Wake the computer and wait for the login window to appear.",
+        "Enter your Mercy username and password (the same as other campus systems).",
+        "If you see an error, make sure Caps Lock is off and try again.",
+        "If you still cannot sign in, wait 60 seconds and try once more before contacting support."
+      ]
+    },
+    {
+      "id": "wifi-setup",
+      "title": "Connecting to Campus Wi-Fi on macOS",
+      "program": "general",
+      "category": "accounts",
+      "summary": "Connect your laptop to Mercy Wi-Fi and avoid common certificate and captive-portal issues.",
+      "format": "textOnly",
+      "body": [
+        "Follow these steps on your personal Mac to connect to campus Wi-Fi."
+      ],
+      "steps": [
+        "Click the Wi-Fi icon in the menu bar and select the campus network.",
+        "When prompted, enter your Mercy username and password.",
+        "If you see a certificate warning, verify it is issued by the university and click Continue.",
+        "Open a web browser; if a login page appears, complete any additional sign-in steps shown."
+      ]
+    },
+
+    {
+      "id": "studio-scheduler-overview",
+      "title": "Using the Studio Scheduler (Overview)",
+      "program": "mpra",
+      "category": "walkthroughs",
+      "summary": "Overview of requesting, confirming, and cancelling sessions, plus how “terms and policies” are applied.",
+      "format": "htmlEmbed",
+      "url": "https://example.edu/help/studio-scheduler-overview"
+    },
+    {
+      "id": "studio-scheduler-request-session",
+      "title": "Requesting a Studio Session (Step-by-Step)",
+      "program": "mpra",
+      "category": "walkthroughs",
+      "summary": "Click-by-click walkthrough for requesting personal sessions, adding guests, and reading your confirmation.",
+      "format": "htmlEmbed",
+      "url": "https://example.edu/help/studio-scheduler-request-session"
+    },
+    {
+      "id": "mpra-session-backup",
+      "title": "Backing Up Your Session at the End of the Night",
+      "program": "mpra",
+      "category": "other",
+      "summary": "Where to save your Pro Tools/Logic sessions, how to copy to external drives, and what to do before power-down.",
+      "format": "textOnly",
+      "body": [
+        "At the end of every session, make sure your work is backed up before you leave."
+      ],
+      "steps": [
+        "Save your project in Pro Tools, Logic, or your DAW of choice.",
+        "Copy your session folder to your approved external drive or cloud location.",
+        "Confirm the copied folder contains audio files and session files (not just shortcuts).",
+        "Only after you’ve verified the backup should you log out and shut down the computer."
+      ]
+    },
+
+    {
+      "id": "logic-no-sound-output",
+      "title": "No Sound in Logic Pro (Control Room)",
+      "program": "mpra",
+      "category": "troubleshooting",
+      "summary": "Quick checklist for when Logic plays, meters move, but nothing comes out of the speakers.",
+      "format": "textOnly",
+      "body": [
+        "If Logic is playing but you don’t hear audio in the control room, walk through this checklist."
+      ],
+      "steps": [
+        "Confirm the studio monitor volume and interface volume are turned up.",
+        "In Logic, check that the Output device matches the studio’s audio interface.",
+        "Verify the master fader is not muted and that its output is set to the main stereo pair.",
+        "If you still have issues, load a known-good session or template to rule out routing problems."
+      ]
+    },
+    {
+      "id": "resetting-studio-headphones",
+      "title": "Resetting Studio Headphone Mixes",
+      "program": "mpra",
+      "category": "troubleshooting",
+      "summary": "How to reset headphone sends and verify cabling when the booth or live-room mix is missing.",
+      "format": "textOnly",
+      "body": [
+        "If someone in the booth can’t hear themselves, use these steps to reset the headphone mix."
+      ],
+      "steps": [
+        "Check that the headphone amp is powered on and the channel volume is up.",
+        "In the DAW or console, verify that the correct send is routed to the headphone output.",
+        "Test with a known-good set of headphones and cable to rule out hardware issues.",
+        "If the issue persists, reset the routing to the standard template and try again."
+      ]
+    },
+
+    {
+      "id": "premiere-project-setup",
+      "title": "Setting Up a Premiere Pro Project for the Labs (Video)",
+      "program": "media",
+      "category": "walkthroughs",
+      "summary": "Video walkthrough of recommended scratch-disk settings, autosave locations, and project organization.",
+      "format": "video",
+      "url": "https://www.youtube.com/embed/VIDEO_ID_PREMIERE_LABS"
+    },
+    {
+      "id": "resolve-lab-template",
+      "title": "Using the DaVinci Resolve Lab Template",
+      "program": "da",
+      "category": "walkthroughs",
+      "summary": "How to start from the department Resolve template so media, cache, and gallery live in the right places.",
+      "format": "htmlEmbed",
+      "url": "https://example.edu/help/resolve-lab-template"
+    },
+
+    {
+      "id": "camera-checkout-overview",
+      "title": "Camera Checkout Overview",
+      "program": "media",
+      "category": "other",
+      "summary": "What to expect when borrowing camera kits, including return times and what must be in the case.",
+      "format": "textOnly",
+      "body": [
+        "Review this checklist before you check out or return a camera kit."
+      ],
+      "steps": [
+        "Confirm all listed items are present in the case before you leave the office.",
+        "Do a quick scratch recording on the camera to confirm cards and batteries are working.",
+        "On return, clean obvious fingerprints or dust and neatly repack all accessories.",
+        "Report any damaged or missing items to staff when you return the kit."
+      ]
+    },
+    {
+      "id": "camera-card-backup",
+      "title": "Backing Up Camera Cards Before You Leave the Lab",
+      "program": "media",
+      "category": "walkthroughs",
+      "summary": "Checklist for copying footage from SD cards to your drive and verifying before formatting cards.",
+      "format": "textOnly",
+      "body": [
+        "Always back up media before handing cards back or reusing them."
+      ],
+      "steps": [
+        "Insert the SD card and wait for it to mount on the desktop.",
+        "Copy the entire card structure (folders and files) to your external drive.",
+        "Verify that key clips play correctly from the backup location.",
+        "Only after verification should you eject the card and return or reformat it."
+      ]
+    },
+
+    {
+      "id": "studio-mic-placement-audio-demo",
+      "title": "Studio Mic Placement – Audio Examples",
+      "program": "mpra",
+      "category": "walkthroughs",
+      "summary": "Listen-through examples comparing close vs. distant mic positions on drums, guitar, and vocals.",
+      "format": "htmlEmbed",
+      "url": "https://example.edu/help/studio-mic-placement-audio-demo"
+    },
+
+    {
+      "id": "room-reset-checklist-howto",
+      "title": "Room Reset Checklist (Any Studio or Lab)",
+      "program": "general",
+      "category": "other",
+      "summary": "Simple end-of-session checklist for leaving any space ready for the next person.",
+      "format": "textOnly",
+      "body": [
+        "Use this quick reset checklist before you leave any shared space."
+      ],
+      "steps": [
+        "Push in chairs and return furniture to its default layout.",
+        "Put away microphones, stands, cables, and adapters in their labeled locations.",
+        "Log out of any accounts on the computer and close all applications.",
+        "Remove trash and personal items so the next person starts with a clear space."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "heading": "Shared resources for studios, labs, and media courses.",
+    "body": [
+      "Resources may be direct downloads hosted in this repository or links to approved external storage.",
+      "Browse program-grouped documentation and reference materials for studios, labs, and media courses."
+    ]
+  },
+
+  "search": {
+    "label": "Search resources",
+    "placeholder": "Search by name, room, or document type…"
+  },
+
+  "filters": {
+    "programLabel": "Program",
+    "programAll": "All programs",
+    "categoryLabel": "Category",
+    "categoryAll": "All categories"
+  },
+
+  "sidebar": {
+    "kicker": "Browse",
+    "note": "Select a program on the left to see its resources. Use search to narrow down the list."
+  },
+
+  "programGroups": {
+    "mpra": {
+      "title": "MPRA resources",
+      "description": "Room plots, patch bays, and documentation for the Music Production & Recording Arts studios and labs."
+    },
+    "media": {
+      "title": "Media Studies resources",
+      "description": "Syllabi, production templates, and course-aligned media resources."
+    },
+    "comm": {
+      "title": "Communication & the Arts resources",
+      "description": "Department-level documents and shared materials for CATA."
+    },
+    "da": {
+      "title": "Digital Arts resources",
+      "description": "Design, animation, and general digital arts resource files."
+    },
+    "general": {
+      "title": "General resources",
+      "description": "Documents and references that apply across programs."
+    }
+  },
+
+  "sections": {
+    "byProgramTitle": "Browse by program",
+    "empty": "No resources are available yet in this view."
+  },
+
+  "resourceTypeLabels": {
+    "roomPlots": "Rooms / stage plots",
+    "gearLists": "Gear lists",
+    "patchBays": "Patch bays",
+    "recalls": "Gear recalls / notes",
+    "otherDocs": "Other documents"
+  },
+
+  "buttons": {
+    "download": "Download",
+    "link": "Link to resource"
+  },
+
+  "emptyStates": {
+    "noMatch": "No resources matched your search. Try a different keyword or clear the filters."
+  }
+}

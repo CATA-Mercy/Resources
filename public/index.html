@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  <main id="pageRoot" class="page page-home">
+    <div class="page-inner">
+
+      <!-- Hero / welcome -->
+      <section class="hero" aria-labelledby="homeHeroHeading">
+        <div class="hero-main">
+          <h1 id="homeHeroHeading"></h1>
+          <div id="homeHeroBody" class="hero-body"></div>
+        </div>
+
+        <aside class="hero-side" aria-labelledby="homeContactTitle">
+          <h2 id="homeContactTitle"></h2>
+          <p id="homeContactBody"></p>
+          <dl class="contact-list">
+            <div class="contact-row">
+              <dt id="homeContactEmailLabel"></dt>
+              <dd><a href="#" id="homeContactEmailValue"></a></dd>
+            </div>
+            <div class="contact-row">
+              <dt id="homeContactPhoneLabel"></dt>
+              <dd><span id="homeContactPhoneValue"></span></dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <!-- Primary navigation cards -->
+      <section class="section" aria-label="Primary sections">
+        <div class="section-grid section-grid-3">
+          <a class="card nav-card" href="policies.html">
+            <h2 id="homeCardPoliciesTitle"></h2>
+            <p id="homeCardPoliciesBody"></p>
+          </a>
+
+          <a class="card nav-card" href="how-to.html">
+            <h2 id="homeCardHowtoTitle"></h2>
+            <p id="homeCardHowtoBody"></p>
+          </a>
+
+          <a class="card nav-card" href="resources.html">
+            <h2 id="homeCardResourcesTitle"></h2>
+            <p id="homeCardResourcesBody"></p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Highlights & upcoming -->
+      <section class="section section-split" aria-label="Highlights and upcoming">
+        <div class="section-column">
+          <div class="section-head">
+            <h2 class="section-title" id="homeHighlightsTitle"></h2>
+          </div>
+          <div id="homeHighlightsList" class="card-list empty-state"></div>
+        </div>
+
+        <div class="section-column">
+          <div class="section-head">
+            <h2 class="section-title" id="homeUpcomingTitle"></h2>
+          </div>
+          <div id="homeUpcomingList" class="card-list empty-state"></div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script src="scripts/shell.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "heading": "How-To & Help for MPRA and media spaces.",
+    "body": [
+      "Use this page to find walkthroughs, quick troubleshooting tips, and account help for labs and studios.",
+      "Guides may be short text checklists, embedded HTML walkthroughs, or video tutorials linked from external platforms."
+    ]
+  },
+
+  "search": {
+    "label": "Search help",
+    "placeholder": "Search…"
+  },
+
+  "filters": {
+    "programLabel": "Program",
+    "programAll": "All programs",
+    "categoryLabel": "Help type",
+    "categoryAll": "All types"
+  },
+
+  "categories": {
+    "accounts": "Accounts & access",
+    "troubleshooting": "Troubleshooting",
+    "walkthroughs": "Walkthroughs",
+    "other": "Other / general help"
+  },
+
+  "sections": {
+    "accountsTitle": "Accounts & access",
+    "troubleshootingTitle": "Troubleshooting",
+    "walkthroughsTitle": "Walkthroughs",
+    "otherTitle": "Other / general help",
+    "empty": "No help items are listed yet in this view."
+  },
+
+  "itemLabels": {
+    "textOnly": "Text steps",
+    "htmlEmbed": "Embedded guide",
+    "video": "Video tutorial"
+  },
+
+  "buttons": {
+    "openGuide": "Open guide",
+    "viewHtml": "View details",
+    "watchVideo": "Watch video"
+  },
+
+  "emptyStates": {
+    "noMatch": "No help items matched your search. Try a different keyword or clear the filters."
+  }
+}
