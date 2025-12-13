@@ -4,6 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Resources</title>
+  <script>
+    (function () {
+      // Default to light; switch to dark if the OS/browser prefers dark mode.
+      var theme = "light";
+      try {
+        if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          theme = "dark";
+        }
+      } catch (e) {}
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>

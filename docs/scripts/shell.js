@@ -44,19 +44,49 @@ async function applyGlobalBranding() {
     return;
   }
 
-  // Theme selection: localStorage override > branding default > system preference
-  let theme = "dark";
+  // Theme selection:
+  // - Default to the OS/browser preference
+  // - Fall back to branding default if provided
+  // - Ignore any previously stored override so the site always follows the device setting
+  let theme = "light";
   try {
-    const stored = window.localStorage.getItem("cataTheme");
-    if (stored === "light" || stored === "dark") {
-      theme = stored;
-    } else if (cfg.theme && (cfg.theme.default === "light" || cfg.theme.default === "dark")) {
+    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      theme = "dark";
+    } else if (
+      cfg.theme &&
+      (cfg.theme.default === "light" || cfg.theme.default === "dark")
+    ) {
       theme = cfg.theme.default;
-    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches) {
-      theme = "light";
     }
-  } catch (_) {}
+  } catch (_) {
+    if (
+      cfg.theme &&
+      (cfg.theme.default === "light" || cfg.theme.default === "dark")
+    ) {
+      theme = cfg.theme.default;
+    }
+  }
+
   setTheme(theme);
+
+  // React live if the OS/browser theme changes while the page is open
+  try {
+    if (window.matchMedia) {
+      const mq = window.matchMedia("(prefers-color-scheme: dark)");
+      const handleSystemThemeChange = event => {
+        const nextTheme = event.matches ? "dark" : "light";
+        setTheme(nextTheme);
+      };
+
+      if (typeof mq.addEventListener === "function") {
+        mq.addEventListener("change", handleSystemThemeChange);
+      } else if (typeof mq.addListener === "function") {
+        mq.addListener(handleSystemThemeChange);
+      }
+    }
+  } catch (_) {
+    // If matchMedia isn't available or throws, just skip live updates
+  }
 
   // Show or hide theme toggle based on config
   const toggleBtn = document.querySelector(".theme-toggle");

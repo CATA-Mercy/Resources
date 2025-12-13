@@ -476,6 +476,7 @@
 
 .page-policies .policies-detail-list li {
   margin-bottom: 2px;
+  color: var(--ink-muted);
 }
 
 .page-policies .policies-detail-paragraph {
